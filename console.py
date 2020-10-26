@@ -16,7 +16,7 @@ class settings:
 class internaldata:
     avg = []
 
-def check(code, proxy='http://7ujn87ku:4JST9cRFG6LfzOcI@proxy.proxy-cheap.com:31112'):
+def check(code, proxy='enter ur proxy url'): # proxy here
     session = requests.session()
     session.proxies = {
         'http': proxy,
